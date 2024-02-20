@@ -7,7 +7,6 @@ import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
@@ -17,15 +16,14 @@ import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-// Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+
+import amazon from "./assets/projects/amazon.png";
+import portfolio from "./assets/projects/portfolio.png";
+import razor from "./assets/projects/razor.png";
+import image from "./assets/projects/image.png";
+import netflix from "./assets/projects/netflix.png";
+import planet from "./assets/projects/planet.png";
 
 // Logos
 export const logos = {
@@ -45,10 +43,9 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/yogeshkumar-jagtap-885b691a5/",
+  github: "https://github.com/yogeshkumarj7",
+  twitter: "https://twitter.com/ItxJagtap7",
 };
 
 // Enter your Work Experience here
@@ -107,63 +104,63 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Netflix Clone",
+    image: netflix,
+    description: `Discover the Netflix Clone! Watch upcoming horror and thriller movies effortlessly. Create an account to save favorites. Enjoy personalized movie suggestions. Redefine your movie time with ease!`,
+    techstack: "HTML,Tailwind-CSS,React-js",
+    previewLink: "https://netflix-clone-seven-vert.vercel.app/",
+    githubLink: "https://github.com/yogeshkumarj7/Netflix-Clone",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Amazon Clone",
+    image: amazon,
+    description: `
+    Explore the Amazon Clone! Browse and add products to your cart seamlessly. Discover a vast range of items at your fingertips. An intuitive shopping experience awaits – redefine your online shopping journey today!`,
+    techstack: "HTML/CSS, React-js",
+    previewLink: "https://amazon-clone-wheat-phi.vercel.app/",
+    githubLink: "https://github.com/yogeshkumarj7/Amazon-Clone",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Image Rover",
+    image: image,
+    description: `
+    Introducing Image Rover! Effortlessly explore a vast array of images. Tailor your search and discover the perfect visuals with ease. Save and share your favorite finds. Redefine your image exploration experience now!`,
+    techstack: "HTML/CSS, React-js",
+    previewLink: "https://image-rover.vercel.app/",
+    githubLink: "https://github.com/yogeshkumarj7/Image-Rover",
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "The-Graha's",
+    image: planet,
+    description: `
+    
+Explore solar system facts interactively. React JS powers our site, offering engaging experiences. Discover fascinating details about each planet with ease.`,
+    techstack: "HTML/CSS, React-js",
+    previewLink: "https://planets-facts-site-mocha.vercel.app/",
+    githubLink: "https://github.com/yogeshkumarj7/planet-facts-site",
   },
   {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Razorpay Clone",
+    image: razor,
+    description: `
+    Introducing RazorPay Clone: Crafted with HTML and Tailwind CSS for simplicity. A user-friendly solution for seamless transaction experiences. Simplify online payments with ease.`,
+    techstack: "HTML,Tailwind-Css",
+    previewLink: "https://razorpay-clone-umber.vercel.app/",
+    githubLink: "https://github.com/yogeshkumarj7/Razorpay-Clone",
   },
   {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    title: "My Portfolio",
+    image: portfolio,
+    description: `
+    Explore my Portfolio! Designed with my skills, showcasing projects and work experience. Navigate through a visual journey of my accomplishments and expertise.`,
+    techstack: "HTML,Tailwind-CSS, React-js",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/yogeshkumarj7/Portfolio",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "yogeshkumar68265@gmail.com.com",
+  phone: "+91 9021038045",
 };
